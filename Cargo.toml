@@ -1,0 +1,12 @@
+[package]
+name = "tcpsplit"
+version = "0.1.0"
+edition = "2021"
+
+[[example]]
+name = "splitdemo"
+path = "splitdemo.rs"
+
+[lib]
+name = "tcpsplit"
+path = "tcpsplit.rs"
